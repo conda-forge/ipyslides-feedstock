@@ -25,6 +25,7 @@ requirements:
     - markdown
     - matplotlib-base
     - numpy
+    - pillow
     - python >=3.6
 
 test:
