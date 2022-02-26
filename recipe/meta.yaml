@@ -20,6 +20,7 @@ requirements:
     - IPython
     - ipywidgets
     - markdown
+    - matplotlib-base
     - pip
     - python >=3.6
   run:
