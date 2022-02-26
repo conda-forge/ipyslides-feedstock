@@ -19,6 +19,7 @@ requirements:
   host:
     - IPython
     - ipywidgets
+    - markdown
     - pip
     - python >=3.6
   run:
