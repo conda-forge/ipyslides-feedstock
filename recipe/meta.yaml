@@ -18,6 +18,7 @@ build:
 requirements:
   host:
     - IPython
+    - ipywidgets
     - pip
     - python >=3.6
   run:
