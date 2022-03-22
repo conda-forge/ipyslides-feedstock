@@ -1,0 +1,18 @@
+--- ipyslides/__init__.py	2022-03-15 22:32:04.000000000 -0400
++++ ipyslides/__init__.py	2022-03-22 14:55:43.031502700 -0400
+@@ -1,9 +1,13 @@
+ from .shared_vars import __version__
+ __version__ = __version__
+ 
+-from .core import LiveSlides
++try:
++	from .core import LiveSlides
+ 
+-__all__ = ['LiveSlides']
++	__all__ = ['LiveSlides']
++
++except AttributeError as err:
++	print(err)
+       
+         
+ if __name__ == '__main__':
