@@ -9,6 +9,8 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ipyslides-{{ version }}.tar.gz
   sha256: 46c26c5e4d26c940ead5a3ef941e0be0a4163dd503bf63a94ed80334b0286706
+  patches:
+    - 0001-catch-error.patch
 
 build:
   number: 0
