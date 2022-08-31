@@ -20,12 +20,12 @@ requirements:
     - ipywidgets
     - markdown
     - pip
+    - pillow
     - python >=3.6
   run:
     - ipywidgets
     - markdown
     - numpy
-    - pillow
     - python >=3.6
 
 test:
