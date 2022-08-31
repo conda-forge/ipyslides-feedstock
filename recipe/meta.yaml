@@ -19,13 +19,11 @@ requirements:
   host:
     - ipywidgets
     - markdown
-    - matplotlib-base
     - pip
     - python >=3.6
   run:
     - ipywidgets
     - markdown
-    - matplotlib-base
     - numpy
     - pillow
     - python >=3.6
