@@ -26,6 +26,7 @@ requirements:
     - ipywidgets
     - markdown
     - numpy
+    - pillow
     - python >=3.6
 
 test:
