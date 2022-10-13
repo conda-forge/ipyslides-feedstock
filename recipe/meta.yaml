@@ -25,6 +25,7 @@ requirements:
   run:
     - ipywidgets
     - markdown
+    - markdown-customblocks
     - pillow
     - python >=3.6
 
