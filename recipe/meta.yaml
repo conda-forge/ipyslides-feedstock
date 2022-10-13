@@ -1,5 +1,5 @@
 {% set name = "ipyslides" %}
-{% set version = "1.8.0" %}
+{% set version = "1.8.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ipyslides-{{ version }}.tar.gz
-  sha256: 519eb8382feb1f0331a68692a382f08cf448b6f25e471c7a750caa37b7eb0814
+  sha256: 477d84b4f2c6a191ae3c95f8c9d308796afcf94c6ea258c6389be567c6300931
 
 build:
   number: 0
@@ -25,6 +25,7 @@ requirements:
   run:
     - ipywidgets
     - markdown
+    - markdown-customblocks
     - pillow
     - python >=3.6
 
