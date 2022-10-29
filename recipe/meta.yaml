@@ -39,6 +39,7 @@ test:
 
 about:
   home: https://github.com/massgh/ipyslides
+  doc_url: https://massgh.github.io/ipyslides/
   summary: Live rich content slides in jupyter notebook
   license: MIT
   license_file: LICENSE
