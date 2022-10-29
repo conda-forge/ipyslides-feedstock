@@ -1,5 +1,5 @@
 {% set name = "ipyslides" %}
-{% set version = "1.8.9" %}
+{% set version = "2.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ipyslides-{{ version }}.tar.gz
-  sha256: 17a68da1568ba71bd162b805d6f015969740fb03ef2df4e1c9a436751b70195d
+  sha256: 587e452860594d93f2d0d67b920ef3a6bbedbcf0a66f85e5c0dd633dbba876ae
 
 build:
   number: 0
@@ -39,6 +39,7 @@ test:
 
 about:
   home: https://github.com/massgh/ipyslides
+  doc_url: https://massgh.github.io/ipyslides/
   summary: Live rich content slides in jupyter notebook
   license: MIT
   license_file: LICENSE

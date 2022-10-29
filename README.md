@@ -9,6 +9,8 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ipyslides-feeds
 
 Summary: Live rich content slides in jupyter notebook
 
+Documentation: https://massgh.github.io/ipyslides/
+
 Current build status
 ====================
 
