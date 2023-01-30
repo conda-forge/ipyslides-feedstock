@@ -31,11 +31,11 @@ requirements:
     - python >=3.8
 
 test:
-  imports:
-    - ipyslides
   commands:
     - pip check
+    - ipython -c "import ipyslides"
   requires:
+    - ipython
     - pip
 
 about:
