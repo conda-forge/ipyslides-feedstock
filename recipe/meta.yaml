@@ -17,18 +17,16 @@ build:
 
 requirements:
   host:
-    - ipywidgets >=8.0.4
-    - markdown
-    - markdown-customblocks
-    - pip
-    - pillow >=9.3.0
-    - python >=3.8
+    - python >=3.8    
+    - pip    
   run:
-    - ipywidgets
+    - python >=3.8
     - markdown
     - markdown-customblocks
-    - pillow
-    - python >=3.8
+    - ipywidgets >=8.0.4
+    - pillow >=9.3.0
+    - anywidget ==0.7.1
+    - tldraw ==2.0.2
 
 test:
   imports:
