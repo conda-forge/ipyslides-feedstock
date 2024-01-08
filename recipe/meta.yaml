@@ -28,6 +28,9 @@ requirements:
     - anywidget ==0.7.1
     - tldraw ==2.0.2
 
+    # Not listed but pip check complains
+    - numpy
+
 test:
   imports:
     - ipyslides
