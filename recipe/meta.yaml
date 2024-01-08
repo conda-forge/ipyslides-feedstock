@@ -1,5 +1,5 @@
 {% set name = "ipyslides" %}
-{% set version = "3.1.8" %}
+{% set version = "3.5.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ipyslides-{{ version }}.tar.gz
-  sha256: 6446c77f0ebc664bdc1404e2ee1a3603d807f78da8e69a4323c82ab107bba72f
+  sha256: 67e338af995f45f7627c2851125a5774d44ad4f719fe39f536904428a0d0de94
 
 build:
   number: 0
@@ -17,18 +17,19 @@ build:
 
 requirements:
   host:
-    - ipywidgets >=8.0.4
-    - markdown
-    - markdown-customblocks
-    - pip
-    - pillow >=9.3.0
-    - python >=3.8
+    - python >=3.8    
+    - pip    
   run:
-    - ipywidgets
+    - python >=3.8
     - markdown
     - markdown-customblocks
-    - pillow
-    - python >=3.8
+    - ipywidgets >=8.0.4
+    - pillow >=9.3.0
+    - anywidget ==0.7.1
+    - tldraw ==2.0.2
+
+    # Not listed but pip check complains
+    - numpy
 
 test:
   imports:
