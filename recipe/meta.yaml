@@ -32,7 +32,6 @@ requirements:
     - numpy
 
 test:
-  script: run_test.py
   commands:
     - pip check
   requires:
