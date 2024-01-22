@@ -32,8 +32,7 @@ requirements:
     - numpy
 
 test:
-  imports:
-    - ipyslides
+  script: run_test.py
   commands:
     - pip check
   requires:
