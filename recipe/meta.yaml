@@ -37,6 +37,7 @@ test:
     - pip check
   requires:
     - pip
+    - ipython >=8.7
 
 about:
   home: https://github.com/massgh/ipyslides
