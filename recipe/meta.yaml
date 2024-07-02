@@ -35,7 +35,7 @@ requirements:
 test:
   commands:
     - pip check
-    - ipython run_test.py
+    - ipython ipython_test.py
   requires:
     - pip
 
