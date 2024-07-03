@@ -33,9 +33,10 @@ requirements:
     - numpy
 
 test:
+  files:
+    - ipython_test.py
   commands:
     - pip check
-    - ls -laR
     - ipython ipython_test.py
   requires:
     - pip
