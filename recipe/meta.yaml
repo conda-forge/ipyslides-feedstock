@@ -33,8 +33,11 @@ requirements:
     - numpy
 
 test:
+  files:
+    - ipython_test.py
   commands:
     - pip check
+    - ipython ipython_test.py
   requires:
     - pip
 
