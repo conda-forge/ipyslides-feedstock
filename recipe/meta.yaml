@@ -26,7 +26,7 @@ requirements:
     - markdown-customblocks
     - ipywidgets >=8.0.4
     - pillow >=9.3.0
-    - anywidget ==0.7.1
+    - anywidget ==0.9.13
     - tldraw ==2.0.2
 
     # Not listed but pip check complains
