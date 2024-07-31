@@ -20,6 +20,7 @@ requirements:
     # Package seems to rely on standard library collections.Iterable, which is deprecated in 3.10
     - python >=3.8,<3.10
     - pip
+    - setuptools
   run:
     - python >=3.8,<3.10
     - markdown
