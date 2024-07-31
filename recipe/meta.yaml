@@ -1,5 +1,5 @@
 {% set name = "ipyslides" %}
-{% set version = "4.7.1" %}
+{% set version = "4.7.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ipyslides-{{ version }}.tar.gz
-  sha256: edd0c5ff402d5aa6b6df0089eb9c8575081cf6ab5b1e7a63f87c4141dc3beb26
+  sha256: 74caff26dbf9c342c5739e3da9ab152a819545b1de890820c76e23dd6bf80e64
 
 build:
   number: 0
@@ -20,6 +20,7 @@ requirements:
     # Package seems to rely on standard library collections.Iterable, which is deprecated in 3.10
     - python >=3.8,<3.10
     - pip
+    - setuptools
   run:
     - python >=3.8,<3.10
     - markdown
