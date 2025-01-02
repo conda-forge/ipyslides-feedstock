@@ -18,11 +18,11 @@ build:
 requirements:
   host:
     # Package seems to rely on standard library collections.Iterable, which is deprecated in 3.10
-    - python >=3.8,<3.10
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.8,<3.10
+    - python >={{ python_min }},<3.10
     - markdown
     - markdown-customblocks
     - ipywidgets >=8.0.4
@@ -43,7 +43,7 @@ test:
     - ipython ipython_test.py
   requires:
     - pip
-
+    - python {{ python_min }}
 about:
   home: https://github.com/massgh/ipyslides
   doc_url: https://massgh.github.io/ipyslides/
