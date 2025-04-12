@@ -1,5 +1,5 @@
 {% set name = "ipyslides" %}
-{% set version = "5.0.4" %}
+{% set version = "5.0.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ipyslides-{{ version }}.tar.gz
-  sha256: 8379e2b0fa054effe3cf3804451924ab439bd647d1a1fee8c36b38d0986ea524
+  sha256: 9fc894efce26a501ce99ab5593b28cd24793d5b68096e53890ad905e0e4b3ce9
 
 build:
   number: 0
