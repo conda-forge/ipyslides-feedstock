@@ -17,12 +17,11 @@ build:
 
 requirements:
   host:
-    # Package seems to rely on standard library collections.Iterable, which is deprecated in 3.10
     - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >={{ python_min }},<3.10
+    - python >={{ python_min }}
     - markdown
     - markdown-customblocks
     - ipywidgets >=8.0.4
