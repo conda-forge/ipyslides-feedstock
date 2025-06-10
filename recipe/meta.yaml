@@ -1,5 +1,5 @@
 {% set name = "ipyslides" %}
-{% set version = "5.3.9" %}
+{% set version = "5.4.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ipyslides-{{ version }}.tar.gz
-  sha256: 7e9148ff5dc43b612a00b28ee1a5ecf1b4b8f4e73a6ca24d560642952ba4e878
+  sha256: 1e18584fbf90ee3af40401f946b1d28eef4c7d7405aacadb4c71c7868a230022
 
 build:
   number: 0
@@ -27,7 +27,6 @@ requirements:
     - ipywidgets >=8.0.4
     - pillow >=9.3.0
     - anywidget ==0.9.13
-    - ansi2html ==1.9.2
     # tldraw 2.2.4 is malformed and cannot be onboarded to conda
     - tldraw >=2.2.4
 
