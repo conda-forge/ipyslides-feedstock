@@ -44,8 +44,8 @@ test:
     - pip
     - python {{ python_min }}
 about:
-  home: https://github.com/massgh/ipyslides
-  doc_url: https://massgh.github.io/ipyslides/
+  home: https://github.com/asaboor-gh/ipyslides
+  doc_url: https://asaboor-gh.github.io/ipyslides/
   summary: Live rich content slides in jupyter notebook
   license: MIT
   license_file: LICENSE
