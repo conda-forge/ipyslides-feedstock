@@ -3,13 +3,13 @@ About ipyslides-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ipyslides-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/massgh/ipyslides
+Home: https://github.com/asaboor-gh/ipyslides
 
 Package license: MIT
 
 Summary: Live rich content slides in jupyter notebook
 
-Documentation: https://massgh.github.io/ipyslides/
+Documentation: https://asaboor-gh.github.io/ipyslides/
 
 Current build status
 ====================
