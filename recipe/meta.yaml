@@ -11,7 +11,7 @@ source:
   sha256: 4e743c930fe9f82bfa7518e56dea4efec71b02c791203da47945bcaa480b0b5e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -44,8 +44,8 @@ test:
     - pip
     - python {{ python_min }}
 about:
-  home: https://github.com/massgh/ipyslides
-  doc_url: https://massgh.github.io/ipyslides/
+  home: https://github.com/asaboor-gh/ipyslides
+  doc_url: https://asaboor-gh.github.io/ipyslides/
   summary: Live rich content slides in jupyter notebook
   license: MIT
   license_file: LICENSE
