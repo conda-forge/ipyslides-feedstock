@@ -29,6 +29,7 @@ requirements:
     - anywidget ==0.9.13
     # tldraw 2.2.4 is malformed and cannot be onboarded to conda
     - tldraw >=2.2.4
+    - python-magic >=0.4.14
 
     # Not listed but pip check complains
     - numpy
