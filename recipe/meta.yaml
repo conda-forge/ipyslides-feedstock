@@ -1,5 +1,5 @@
 {% set name = "ipyslides" %}
-{% set version = "5.8.8" %}
+{% set version = "5.8.91" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ipyslides-{{ version }}.tar.gz
-  sha256: 7d83df5c8fe912d9194ac5c7edfcfd2d1c5419bbfdd2ed6969aca66549f12c9b
+  sha256: c4434ae678fad87fe6bb25cc81e8917b0849f579800e14834c6a80d3068051e7
 
 build:
   number: 0
@@ -29,6 +29,7 @@ requirements:
     - anywidget ==0.9.13
     # tldraw 2.2.4 is malformed and cannot be onboarded to conda
     - tldraw >=2.2.4
+    - python-magic >=0.4.14
 
     # Not listed but pip check complains
     - numpy
