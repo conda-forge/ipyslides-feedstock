@@ -1,5 +1,5 @@
 {% set name = "ipyslides" %}
-{% set version = "5.8.996" %}
+{% set version = "5.9.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ipyslides-{{ version }}.tar.gz
-  sha256: 24aa215b5fb06eb0a1d02b2e0c953dffbe20d30a3a4fc3bd6075a92e36664cd4
+  sha256: f972246b96b1ce987b23d135afcebcfbb452c7470d6ca475434df48cb9026597
 
 build:
   number: 0
@@ -22,15 +22,20 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - markdown
-    - ipywidgets >=8.0.4
-    - pillow >=9.3.0
     - anywidget ==0.9.13
     # tldraw 2.2.4 is malformed and cannot be onboarded to conda
     - tldraw >=2.2.4
-
-    # Not listed but pip check complains
+    - ipython >=8.7
+    - markdown
+    - altair
+    - ipywidgets >=8.0.4
     - numpy
+    - pandas
+    - matplotlib-base
+    - voila >=0.4.0
+    - pillow >=9.3.0
+    - plotly ==6.0.1
+    - dashlab
 
 test:
   files:
