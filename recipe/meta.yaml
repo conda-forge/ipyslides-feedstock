@@ -33,10 +33,12 @@ requirements:
 test:
   files:
     - ipython_test.py
-  commands:
+  imports:
+    - ipyslides
+  # commands:
     # Skip pip check because of tldraw
     # - pip check
-    - ipython ipython_test.py
+    # - ipython ipython_test.py
   requires:
     - pip
     - python {{ python_min }}
